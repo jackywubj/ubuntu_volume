@@ -1,2 +1,2 @@
 FROM ubuntu:latest
-CMD echo ubuntu>/etc/hostname
+RUN echo 'ubuntu' > /etc/hostname
